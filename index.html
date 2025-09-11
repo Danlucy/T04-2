@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appliance Energy Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo" onclick="showPage('home')">
+      <img src="PowerIcon.png" alt="Power Icon"style="width:50px;height:50px;">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#" id="nav-home" onclick="showPage('home')">Home</a></li>
+      <li><a href="#" id="nav-televisions" onclick="showPage('televisions')">Televisions</a></li>
+      <li><a href="#" id="nav-about" onclick="showPage('about')">About Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Pages -->
+  <main>
+    <section id="home" class="page active">
+      <h1>Welcome to Appliance Energy Insights</h1>
+      <p>Learn about energy consumption of household appliances in the Australian market. 
+      This website will help you understand efficiency ratings and make better choices.</p>
+    </section>
+
+    <section id="televisions" class="page">
+      <h1>Televisions & Energy</h1>
+      <p>Modern TVs in Australia must display an Energy Rating Label. 
+      Energy-efficient televisions use less power, saving money and reducing emissions. 
+      Larger screens and high brightness settings typically increase energy use.</p>
+      <ul>
+        <li>LED TVs are more efficient than plasma.</li>
+        <li>4K and OLED displays consume more power.</li>
+        <li>Standby mode can still use electricity.</li>
+      </ul>
+    </section>
+
+    <section id="about" class="page">
+      <h1>About Us</h1>
+      <p>This site was created as a project to demonstrate web design skills using HTML, CSS, and JavaScript. 
+      It focuses on raising awareness about appliance energy consumption in Australia.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name | Code generated with assistance from GenAI</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
