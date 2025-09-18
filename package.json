@@ -1,0 +1,45 @@
+{
+  "name": "cos-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive website providing insights into appliance energy consumption",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8000 -o",
+    "dev": "npx live-server --port=8000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Deploy to GitHub Pages or your preferred hosting service'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danlucy/COS_website.git"
+  },
+  "keywords": [
+    "energy",
+    "appliances",
+    "television",
+    "website",
+    "javascript",
+    "html",
+    "css",
+    "responsive",
+    "spa"
+  ],
+  "author": "Daniel Ong Zhi En",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danlucy/COS_website/issues"
+  },
+  "homepage": "https://github.com/Danlucy/COS_website#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
