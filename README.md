@@ -12,7 +12,7 @@ A modern, responsive website providing insights into appliance energy consumptio
 
 ## 🚀 Demo
 
-[Live Demo](https://danlucy.github.io/COS_website/) *(Replace with your actual GitHub Pages URL)*
+[Live Demo](https://danlucy.github.io/Cos_website2/) *(Replace with your actual GitHub Pages URL)*
 
 ## 📋 Prerequisites
 
@@ -23,8 +23,8 @@ A modern, responsive website providing insights into appliance energy consumptio
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Danlucy/COS_website.git
-   cd COS_website
+   git clone https://github.com/Danlucy/Cos_website2.git
+   cd Cos_website2
    ```
 
 2. **Open the website**
@@ -48,7 +48,7 @@ A modern, responsive website providing insights into appliance energy consumptio
 ## 📁 Project Structure
 
 ```
-COS_website/
+Cos_website2/
 │
 ├── index.html          # Main HTML file
 ├── style.css           # Styling and layout
@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions or need help with setup, please [open an issue](https://github.com/Danlucy/COS_website/issues) on GitHub.
+If you have any questions or need help with setup, please [open an issue](https://github.com/Danlucy/Cos_website2/issues) on GitHub.
 
 ---
 
