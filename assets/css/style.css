@@ -59,7 +59,9 @@ body {
 .page.active {
   display: block;
 }
-
+#televisions {
+  padding-bottom: 80px; /* or however much space you want */
+}
 /* Footer */
 footer {
   text-align: center;
