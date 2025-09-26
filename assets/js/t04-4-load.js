@@ -1,15 +1,15 @@
 // Load the tvBrandCount.csv file from /data
 
-d3.csv("data/tech_data.csv", d => {
-return {
-brand: d["row ID"], // Use the actual column name from CSV
-count: +d.count // '+' converts string to number
-};
-}).then(data => {
+// d3.csv("data/tech_data.csv", d => {
+// return {
+// brand: d["row ID"], // Use the actual column name from CSV
+// count: +d.count // '+' converts string to number
+// };
+// }).then(data => {
 /* Stub: will draw the chart in T04-5 */
-function createBarChart(data) {
-  console.log("createBarChart received", data.length, "rows");
-}
+// function createBarChart(data) {
+//   console.log("createBarChart received", data.length, "rows");
+// }
 /* Load CSV, Convert Type, Quick Check */
 d3.csv("data/tech_data.csv", d => ({
 brand: d["row ID"],
@@ -25,4 +25,5 @@ console.log("extent:", d3.extent(data, d => d.count)); // [min, max]
 data.sort((a, b) => d3.descending(a.count, b.count));
 // Hand off to the chart builder (implemented next exercise)
 createBarChart(data);
-});});
+});
+// });
